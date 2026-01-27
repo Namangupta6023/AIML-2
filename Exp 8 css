@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+.id-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* padding: 20px; */
+    width: 350px;
+    height: 500px;
+    /* text-align: center; */
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: azure;
+
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.details {
+    display:grid;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
